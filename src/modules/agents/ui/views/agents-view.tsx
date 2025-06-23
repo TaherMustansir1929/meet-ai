@@ -23,9 +23,9 @@ export const AgentsViewLoading = () => {
 
 export const AgentsViewError = () => {
   return (
-    <ErrorState 
+    <ErrorState
       title="Error loading agents"
       description="Please try again later"
     />
-  )
-}
+  );
+};
