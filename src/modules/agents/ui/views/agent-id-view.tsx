@@ -12,7 +12,7 @@ import { Badge } from "@/components/ui/badge";
 
 import { useTRPC } from "@/trpc/client";
 import { toast } from "sonner";
-import { useConfirm } from "../../hooks/use-confirm";
+import { useConfirm } from "@/hooks/use-confirm";
 import { useState } from "react";
 import { UpdateAgentDialog } from "../components/update-agent-dialog";
 
